@@ -19,14 +19,14 @@ let lower1 = trimmed1.toLowerCase()
 let trimmed2 = hand2.trim()
 let lower2 = trimmed2.toLowerCase()
 /*function determineWinner(hand1, hand2)*/{
-  if (hand1 == hand2){
-  return "its a tie";
+  if (lower1 == lower2){
+  return "It's a tie!";
 } else if ((lower1 == "rock" && lower2 == "scissors") ||
            (lower1 == "paper" && lower2 == "rock") ||
            (lower1 == "scissors" && lower2 == "paper")){
-return "Hand 1 wins";
+return "Hand one wins!";
 } else 
-  return "Hand 2 wins";
+  return "Hand two wins!";
 }
   // Write code here
   // Use the unit test to see what is expected
